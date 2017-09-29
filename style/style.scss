@@ -136,6 +136,7 @@ header{
         h1{
             width: 80%;
             margin:0px auto;
+            padding-top: 1em;
             font-size: 3.2em;
             line-height: 50px;
         }
@@ -146,6 +147,10 @@ header{
     }
     article{
         padding: 1em 5em 0;
+        blockquote{
+            border-left: solid orange 3px;
+            padding-left: 8px;        
+        }
         p{
             font-size: 1.2em;
             a{color: lightskyblue;font-weight: bold; text-decoration: none;}
@@ -193,9 +198,9 @@ footer{
         left: 0;
         background: white;
         width: 100%;
-        margin-top: 30px;
+        margin-top: 130px;
         padding: 1.2em;
-        border-top: solid orange 2px;
+        border-top: solid orange 4px;
     .note{
             padding: .5em;
             max-width: 500px;
