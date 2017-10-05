@@ -6,7 +6,9 @@ body {
   font-family: 'Mukta', sans-serif;
 }
 
+
 /*Header styles for main nav parent*/
+
 header {
   width: 100%;
   height: 50px;
@@ -89,7 +91,9 @@ header .page-navigation ul li a:hover {
   color: gray;
 }
 
+
 /*popup modal for subscription style*/
+
 .pop-up {
   width: 300px;
   height: 200px;
@@ -142,7 +146,9 @@ header .page-navigation ul li a:hover {
   top: 0;
 }
 
+
 /*entire page wrapper style*/
+
 .wrapper {
   position: relative;
   max-width: 55%;
@@ -190,7 +196,7 @@ header .page-navigation ul li a:hover {
   font-size: 1.2em;
 }
 
-.wrapper article > p::first-letter{
+.wrapper article > p::first-letter {
   font-size: 1.6em;
   font-weight: bold;
 }
@@ -201,7 +207,9 @@ header .page-navigation ul li a:hover {
   text-decoration: none;
 }
 
+
 /*featured article on the side*/
+
 aside {
   width: 15%;
   height: 500px;
@@ -239,7 +247,9 @@ aside .content i {
   font-size: .8em;
 }
 
+
 /*footer element on the site*/
+
 footer {
   position: relative;
   bottom: 0;
@@ -266,4 +276,3 @@ footer .copy p {
   text-align: center;
   margin: 0;
 }
-
