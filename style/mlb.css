@@ -3,8 +3,10 @@ body {
   padding: 0;
   width: 100%;
   background: #f5f5f5;
-  font-family: 'Mukta', sans-serif; }
+  font-family: 'Mukta', sans-serif;
+}
 
+/*Header styles for main nav parent*/
 header {
   width: 100%;
   height: 50px;
@@ -13,53 +15,81 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  box-shadow: #d0d0d0 0px 0px 14px; }
-  header h3 {
-    width: 200px;
-    text-align: center;
-    margin: auto;
-    margin-left: 47px;
-    position: absolute;
-    margin-top: 24px; }
-  header .nba {
-    color: orange; }
-  header .nfl {
-    color: brown; }
-  header .mlb {
-    color: #0eda0e; }
-  header .current {
-    border-bottom: solid 3px orange; }
-  header .logo {
-    width: 160px;
-    padding: 0 0 0 1em;
-    float: left; }
-    header .logo a {
-      height: 100%;
-      width: 100%; }
-      header .logo a img {
-        margin-top: 10px;
-        width: 110px; }
-  header .page-navigation {
-    float: right;
-    margin-right: 50px; }
-    header .page-navigation ul {
-      width: 300px;
-      padding: 0;
-      list-style-type: none;
-      clear: both;
-      margin: 10px 0 0 0; }
-      header .page-navigation ul li {
-        text-align: center;
-        display: inline;
-        padding: 1.5em; }
-        header .page-navigation ul li a {
-          text-decoration: none;
-          color: black;
-          font-size: 1.2em;
-          text-transform: uppercase; }
-          header .page-navigation ul li a:hover {
-            color: gray; }
+  box-shadow: #d0d0d0 0px 0px 14px;
+}
 
+header h3 {
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  margin-left: 47px;
+  position: absolute;
+  margin-top: 24px;
+}
+
+header .nba {
+  color: orange;
+}
+
+header .nfl {
+  color: brown;
+}
+
+header .mlb {
+  color: #0eda0e;
+}
+
+header .current {
+  border-bottom: solid 3px orange;
+}
+
+header .logo {
+  width: 160px;
+  padding: 0 0 0 1em;
+  float: left;
+}
+
+header .logo a {
+  height: 100%;
+  width: 100%;
+}
+
+header .logo a img {
+  margin-top: 10px;
+  width: 110px;
+}
+
+header .page-navigation {
+  float: right;
+  margin-right: 50px;
+}
+
+header .page-navigation ul {
+  width: 300px;
+  padding: 0;
+  list-style-type: none;
+  clear: both;
+  margin: 10px 0 0 0;
+}
+
+header .page-navigation ul li {
+  text-align: center;
+  display: inline;
+  padding: 1.5em;
+}
+
+header .page-navigation ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+header .page-navigation ul li a:hover {
+  color: gray;
+}
+
+/*popup modal for subscription style*/
 .pop-up {
   width: 300px;
   height: 200px;
@@ -72,24 +102,35 @@ header {
   left: 40%;
   border: solid 2px #569088;
   border-radius: 4px;
-  border-bottom: solid 3px green; }
-  .pop-up h3 {
-    text-align: center;
-    margin: 0;
-    font-size: 1.7em; }
-  .pop-up p {
-    font-size: 1.3em;
-    text-align: center; }
-  .pop-up strong {
-    color: green; }
-  .pop-up input {
-    padding: 1em; }
-  .pop-up button {
-    background: orange;
-    border: none;
-    color: white;
-    padding: 1.1em 2em;
-    border-radius: 6px; }
+  border-bottom: solid 3px green;
+}
+
+.pop-up h3 {
+  text-align: center;
+  margin: 0;
+  font-size: 1.7em;
+}
+
+.pop-up p {
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.pop-up strong {
+  color: green;
+}
+
+.pop-up input {
+  padding: 1em;
+}
+
+.pop-up button {
+  background: orange;
+  border: none;
+  color: white;
+  padding: 1.1em 2em;
+  border-radius: 6px;
+}
 
 .overlay {
   position: fixed;
@@ -98,8 +139,10 @@ header {
   min-height: 100%;
   background: rgba(20, 20, 20, 0.5);
   left: 0;
-  top: 0; }
+  top: 0;
+}
 
+/*entire page wrapper style*/
 .wrapper {
   position: relative;
   max-width: 55%;
@@ -108,36 +151,57 @@ header {
   margin: auto;
   padding: 1em;
   background: white;
-  margin-top: 100px; }
-  .wrapper .today-date {
-    color: gray;
-    letter-spacing: 2px;
-    font-weight: 600;
-    width: 80%;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 30px; }
-  .wrapper content h1 {
-    width: 80%;
-    margin: 0px auto;
-    padding-top: 1em;
-    font-size: 3.2em;
-    line-height: 50px; }
-  .wrapper content img {
-    width: 100%;
-    display: block; }
-  .wrapper article {
-    padding: 1em 5em 0; }
-    .wrapper article blockquote {
-      border-left: solid orange 3px;
-      padding-left: 8px; }
-    .wrapper article p {
-      font-size: 1.2em; }
-      .wrapper article p a {
-        color: lightskyblue;
-        font-weight: bold;
-        text-decoration: none; }
+  margin-top: 100px;
+}
 
+.wrapper .today-date {
+  color: gray;
+  letter-spacing: 2px;
+  font-weight: 600;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.wrapper content h1 {
+  width: 80%;
+  margin: 0px auto;
+  padding-top: 1em;
+  font-size: 3.2em;
+  line-height: 50px;
+}
+
+.wrapper content img {
+  width: 100%;
+  display: block;
+}
+
+.wrapper article {
+  padding: 1em 5em 0;
+}
+
+.wrapper article blockquote {
+  border-left: solid orange 3px;
+  padding-left: 8px;
+}
+
+.wrapper article p {
+  font-size: 1.2em;
+}
+
+.wrapper article > p::first-letter{
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.wrapper article a {
+  color: lightskyblue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*featured article on the side*/
 aside {
   width: 15%;
   height: 500px;
@@ -145,25 +209,37 @@ aside {
   right: 25px;
   top: 100px;
   background: white;
-  padding: 1em; }
-  aside section {
-    padding-bottom: 8px;
-    margin-bottom: 5px; }
-  aside .image {
-    width: 100%;
-    position: relative;
-    display: block; }
-    aside .image img {
-      width: 100%; }
-  aside .content p {
-    margin: 0; }
-  aside .content i {
-    color: gray;
-    letter-spacing: 2px;
-    font-weight: 600;
-    font-style: normal;
-    font-size: .8em; }
+  padding: 1em;
+}
 
+aside section {
+  padding-bottom: 8px;
+  margin-bottom: 5px;
+}
+
+aside .image {
+  width: 100%;
+  position: relative;
+  display: block;
+}
+
+aside .image img {
+  width: 100%;
+}
+
+aside .content p {
+  margin: 0;
+}
+
+aside .content i {
+  color: gray;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-style: normal;
+  font-size: .8em;
+}
+
+/*footer element on the site*/
 footer {
   position: relative;
   bottom: 0;
@@ -172,16 +248,22 @@ footer {
   width: 100%;
   margin-top: 130px;
   padding: 1.2em;
-  border-top: solid orange 4px; }
-  footer .note {
-    padding: .5em;
-    max-width: 500px;
-    margin: auto; }
-    footer .note p {
-      margin: 0;
-      color: #7b7a7a; }
-  footer .copy p {
-    text-align: center;
-    margin: 0; }
+  border-top: solid orange 4px;
+}
 
-/*# sourceMappingURL=style.css.map */
+footer .note {
+  padding: .5em;
+  max-width: 500px;
+  margin: auto;
+}
+
+footer .note p {
+  margin: 0;
+  color: #7b7a7a;
+}
+
+footer .copy p {
+  text-align: center;
+  margin: 0;
+}
+
